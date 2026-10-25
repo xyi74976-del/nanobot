@@ -3031,7 +3031,6 @@ function Shell({
                               !activeKey ? onTemporaryChatEnabledChange : undefined
                             }
                             onToggleSidebar={toggleSidebar}
-                            onNewChat={onNewChat}
                             onCreateChat={
                               temporaryChatEnabled ? onCreateTemporaryChat : onCreateChat
                             }
@@ -3077,7 +3076,6 @@ function Shell({
                           filePreviewStore={filePreviewStore}
                           draftStore={draftStore}
                           onToggleSidebar={toggleSidebar}
-                          onNewChat={onNewChat}
                           onCreateChat={onCreateChat}
                           pendingFirstMessage={pendingAutomationMessage}
                           onPendingFirstMessageConsumed={onPendingAutomationMessageConsumed}
